@@ -1,1 +1,5 @@
 /dataset/humaneva_S1
+*__pycache__/
+*.ipynb_checkpoints/
+/cpn_dump
+/cpn/weights
