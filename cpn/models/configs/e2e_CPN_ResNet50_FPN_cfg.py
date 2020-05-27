@@ -5,8 +5,7 @@
 
 import math
 import numpy as np
-from models.config import DefaultConfig
-
+from cpn.models.config import DefaultConfig
 
 class Config(DefaultConfig):
     NAME = "ResNet50_CPN"  # Override in sub-classes
@@ -49,4 +48,3 @@ class Config(DefaultConfig):
     ## network configuration
     #########################################################################
     BACKBONE = 'resnet50'
-    

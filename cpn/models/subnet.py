@@ -1,7 +1,7 @@
 import keras.layers as KL
 import keras.backend as K
 import tensorflow as tf
-from models.resnet_backbone import identity_block as bottleneck
+from cpn.models.resnet_backbone import identity_block as bottleneck
 from keras.utils import conv_utils
 from keras.engine import InputSpec
 import numpy as np

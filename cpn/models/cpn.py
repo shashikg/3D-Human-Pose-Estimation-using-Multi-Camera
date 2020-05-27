@@ -15,8 +15,8 @@ import keras.backend as K
 import keras.layers as KL
 import keras.models as KM
 
-from models.subnet import create_global_net, create_refine_net
-import models.resnet_backbone as backbone
+from cpn.models.subnet import create_global_net, create_refine_net
+import cpn.models.resnet_backbone as backbone
 
 class CPN():
     def __init__(self, cfg):

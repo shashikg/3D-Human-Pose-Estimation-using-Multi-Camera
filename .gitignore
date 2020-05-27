@@ -2,4 +2,4 @@
 *__pycache__/
 *.ipynb_checkpoints/
 /cpn_dump
-/cpn/weights
+/weights
