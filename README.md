@@ -1,2 +1,5 @@
-# 3DHPMC
-3D Human Pose Estimation using Multi Camera
+# 3D Human Pose Estimation using Multi Camera
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4003521.svg)](https://doi.org/10.5281/zenodo.4003521)
+
+The work focuses on estimating 3D Human Poses from video recorded using multiple camera system. Each of the camera placed at some different position and angle. For the demo we used the camera stream from two camera placed at 90 degrees to each other, this video is available via the HumanEva I dataset. Numbers of previous work have been done in this domain in the past. Some of them directly try to estimate 3D poses out of the given video stream while some of them first find 2D keypoints followed by 3D pose estimate using those 2D keypoints. This work followed on lines similar to the later one, we first find the 2D key points for the output video of the two cameras. And then we estimate 3D poses by solving a set of equations formed using the camera's parameters i.e. its rotation and translation matrix. To find 2D keypoints we used pre-trained weights of Cascaded Pyramidal Networks (CPN) which generates the heatmaps for 17 different key points on the human body.
